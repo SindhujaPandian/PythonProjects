@@ -32,7 +32,7 @@ while True:
             print(sign[i],"\t",i+1)
             continue
         print(sign[i],"\t\t",i+1)
-    num=int(input("Choose your zodiac number  :  "))
+    num=int(input("Choose your zodiac number  :  ")) 
     
     horoscope(sign[num-1])
 
