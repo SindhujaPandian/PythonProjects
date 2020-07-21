@@ -30,7 +30,6 @@ class Deck:
             deck_comp+= '\n' + card.__str__()
         return ("The deck has : "+ deck_comp)
 
-
 class Hand:
     def __init__(self):
         self.cards = []
