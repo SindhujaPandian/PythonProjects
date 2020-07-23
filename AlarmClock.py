@@ -21,7 +21,7 @@ try:
     print('        |                 The System time is '+str(hh)+' :'+str(mm)+' :'+str(ss)+'                 |' )
     print('         --------------------------------------------------------------')
     total_system_second = (hh*60*60)+(mm*60) + ss
-        
+       
     hour,minute,second=map(int,input('Enter the time you want to set an alarm : \n').split(':'))
     if((hour<24) and (minute<60) and (second<60)):
         total_second = (hour*60*60)+(minute*60)+second
